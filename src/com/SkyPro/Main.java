@@ -20,7 +20,7 @@ public class Main {
         Результат программы выведите в консоль в формате: ”Данные ФИО сотрудника для заполнения отчета — ”
         */
 
-        fullName = lastName.toUpperCase() + " " + firstName.toUpperCase() + " " + middleName.toUpperCase();
+        fullName = fullName.toUpperCase();
         System.out.println("Employee's full name data for filling out the report - " + fullName);
 
         /* Task #3
